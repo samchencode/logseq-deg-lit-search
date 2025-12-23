@@ -52,6 +52,15 @@ disease-site:: cancer type
 
 For partial data (only pre-RT or post-RT), add `partial-data` to tags.
 
+## Search Tracking
+
+Each search logged in daily journal (`journals/yyyy_MM_dd.md`):
+```
+- Search N
+	- [[doi_here]] - brief synopsis
+	- [[doi_here]] - brief synopsis
+```
+
 ## Workflow
 
 The recommended Logseq workflow:

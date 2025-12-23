@@ -41,8 +41,21 @@
 	- Keywords: RNAseq, RNA-seq, transcriptome, radiation, radiotherapy, differential expression, pre post
 - Public Data Check
 	- Before contacting authors, check [[Public Data Sources]]
+- Search Tracking Workflow
+	- Each retrieval logged in daily journal under `journals/yyyy_MM_dd.md`
+	- Format:
+	  ```
+	  - Search N
+	  	- [[doi_here]] - brief synopsis
+	  	- [[doi_here]] - brief synopsis
+	  ```
+	- Searches numbered sequentially per day (Search 1, Search 2, etc.)
+	- Each paper DOI linked creates backlink to journal date
+	- Enables tracking what was found when
 - Deliverables
 	- Logseq pages per paper with attributes
 	  logseq.order-list-type:: number
 	- Queryable graph via tags/attributes
+	  logseq.order-list-type:: number
+	- Journal log of all searches
 	  logseq.order-list-type:: number
