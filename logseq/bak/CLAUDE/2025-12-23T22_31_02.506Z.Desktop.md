@@ -36,3 +36,28 @@ The recommended Logseq workflow:
 2. As ideas develop, create dedicated pages and move/link content from journals
 3. Use bi-directional links `[[Page Name]]` to connect related concepts
 4. Build a knowledge graph through consistent linking and organization
+
+## Claude Code Skills
+
+### `/commit` - Commit Claude's Changes
+
+When Claude makes changes to files, use the `/commit` skill to create a git commit with a descriptive message.
+
+**Usage:**
+- After Claude creates or modifies files, run `/commit`
+- The skill automatically stages all changes and creates an appropriate commit message
+- For single file changes: "Create: filename" or "Update: filename"
+- For multiple files: Lists all modified files in the commit message
+
+**Example:**
+```
+User: /commit
+Claude: Files modified by Claude:
+  - CLAUDE.md
+  - .claude/skills/commit
+
+✓ Changes committed successfully
+abc1234 Update multiple files
+```
+
+**Note:** Logseq has its own auto-commit for user-generated changes. This skill is specifically for committing Claude's modifications.
