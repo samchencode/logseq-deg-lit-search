@@ -29,6 +29,10 @@ This is a Logseq graph - a knowledge management system that uses markdown files 
 - Special characters and capitalization in page names should be preserved in filenames
 - Namespacing is supported using `/` in page names (e.g., "Project/Notes" creates hierarchy)
 
+## Linking Rules
+
+When writing markdown files, wrap nouns in `[[ ]]` (e.g., `[[The concept]]`) and create corresponding page file in `pages/` (e.g., `The concept.md`).
+
 ## Workflow
 
 The recommended Logseq workflow:
