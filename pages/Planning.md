@@ -12,5 +12,5 @@
 	  logseq.order-list-type:: number
 	- Phase 2: Verification. Ensure that papers meet criteria.
 	  logseq.order-list-type:: number
-	- Have a verified list of papers that meet criteria.
+	- Phase 3: Aggregation. Make summary info about what methods the papers use and what data has been collected in the process of the corresponding research.
 	  logseq.order-list-type:: number
