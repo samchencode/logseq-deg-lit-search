@@ -4,8 +4,11 @@
 	  logseq.order-list-type:: number
 	- Create a table of details of these papers
 	  logseq.order-list-type:: number
+	- Tag papers based on the methods and inclusion criteria of the research for quick searching
+	  logseq.order-list-type:: number
 - What are the milestones?
   logseq.order-list-type:: number
 	- Create guidelines for Claude to use
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- Obtain papers
+	  logseq.order-list-type:: number
