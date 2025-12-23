@@ -62,6 +62,9 @@ Each search logged in daily journal (`journals/yyyy_MM_dd.md`):
 	- [[doi_here]] - brief synopsis
 ```
 
+When a paper matching criteria is found, add to the search log immediately, before continuing the search.
+Also create the corresponding page at `pages/<doi>.md`, containing the appropriate page attributes.
+
 ## Workflow
 
 Always make a to do list and check it off as you go.
