@@ -8,11 +8,9 @@
 	  logseq.order-list-type:: number
 - What are the milestones?
   logseq.order-list-type:: number
-	- Create guidelines for Claude to use
+	- Phase 1: Acquisition. Obtain papers from online repositories
 	  logseq.order-list-type:: number
-	- Obtain papers
-	  logseq.order-list-type:: number
-	- Ensure that papers meet criteria
+	- Phase 2: Verification. Ensure that papers meet criteria.
 	  logseq.order-list-type:: number
 	- Have a verified list of papers that meet criteria.
 	  logseq.order-list-type:: number
