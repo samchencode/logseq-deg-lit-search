@@ -7,7 +7,13 @@
 	- Search by cancer type + SBRT yields better radiation-only results
 	- Keywords that help: "paired samples", "neoadjuvant SBRT", "paired biopsy"
 	- Keywords to avoid: "chemoradiotherapy", "CRT", "concurrent"
+	- GBM nearly always uses Stupp protocol (RT + temozolomide) - rarely RT alone
+	- Cervical cancer typically uses brachytherapy + chemo - rarely RT alone
+	- Esophageal cancer usually uses CCRT - hard to find RT alone
+	- Rectal cancer: short-course RT exists but often combined with chemo
+	- Best RT-alone sources: SBRT for prostate, lung, liver mets
 - Useful search templates
 	- `[cancer type] SBRT RNA-seq transcriptome pre post paired`
 	- `[cancer type] radiotherapy alone gene expression biopsy`
 	- `neoadjuvant radiation [cancer type] transcriptomic paired`
+	- `stereotactic ablative radiotherapy [cancer type] gene expression`
