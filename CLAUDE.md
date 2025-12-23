@@ -7,6 +7,7 @@ In all interactions and commit messages, be extremely concise and sacrifice gram
 This is a Logseq graph for a literature review project. Key docs:
 - `pages/Planning.md` - project plan and milestones
 - `pages/Project Specification.md` - finalized requirements
+- `pages/Tips.md` - search patterns and lessons learned
 
 ## Directory Structure
 

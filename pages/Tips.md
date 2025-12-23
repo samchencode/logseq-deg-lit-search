@@ -1,0 +1,13 @@
+- Search patterns for finding qualifying papers
+- Observations
+	- Most pre/post RT studies are chemoradiotherapy (CRT) - need to filter carefully
+	- Cell line studies are common but excluded (need "patients" or "biopsy" keywords)
+	- [[SBRT]] / stereotactic radiotherapy studies often use radiation alone
+	- Conference abstracts (ASCO, ASTRO) may have unpublished paired data
+	- Search by cancer type + SBRT yields better radiation-only results
+	- Keywords that help: "paired samples", "neoadjuvant SBRT", "paired biopsy"
+	- Keywords to avoid: "chemoradiotherapy", "CRT", "concurrent"
+- Useful search templates
+	- `[cancer type] SBRT RNA-seq transcriptome pre post paired`
+	- `[cancer type] radiotherapy alone gene expression biopsy`
+	- `neoadjuvant radiation [cancer type] transcriptomic paired`
