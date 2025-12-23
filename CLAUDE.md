@@ -31,7 +31,7 @@ This is a Logseq graph - a knowledge management system that uses markdown files 
 
 ## Linking Rules
 
-When writing markdown files, wrap nouns in `[[ ]]` (e.g., `[[The concept]]`) and create corresponding page file in `pages/` (e.g., `The concept.md`).
+When writing markdown files, wrap nouns in `[[ ]]` (e.g., `[[The concept]]`) and create corresponding page file in `pages/` (e.g., `pages/The concept.md`).
 
 ## Workflow
 
