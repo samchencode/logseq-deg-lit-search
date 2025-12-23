@@ -1,0 +1,2 @@
+- AI search engine with citations
+- Good for initial literature discovery

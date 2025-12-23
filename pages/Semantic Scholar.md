@@ -1,0 +1,2 @@
+- AI-powered academic search engine
+- Free, good for citation analysis

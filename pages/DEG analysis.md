@@ -1,0 +1,3 @@
+- Differential expression gene analysis
+- Compares gene expression between conditions (e.g., pre/post [[radiation therapy]])
+- Uses [[RNAseq]] data

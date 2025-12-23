@@ -1,0 +1,2 @@
+- AI search engine for scientific papers
+- Synthesizes findings across studies

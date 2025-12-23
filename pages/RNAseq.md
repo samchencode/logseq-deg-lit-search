@@ -1,0 +1,2 @@
+- RNA sequencing technique for transcriptome analysis
+- Used to measure [[DEG analysis]] before/after treatment
