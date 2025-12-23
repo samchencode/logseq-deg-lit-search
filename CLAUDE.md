@@ -35,6 +35,23 @@ This is a Logseq graph for a literature review project. Key docs:
 
 When writing markdown files, wrap nouns in `[[ ]]` (e.g., `[[The concept]]`) and create corresponding page file in `pages/` (e.g., `pages/The concept.md`).
 
+## Page Attributes
+
+Logseq page attributes go at top of file, format `key:: value`. See `pages/Example Paper.md`. Paper pages use DOI as filename: `pages/<doi>.md` (replace `/` with `_` in DOI).
+
+Required attributes for papers:
+```
+tags:: paper
+link:: [LINK](url)
+authors:: Last, F et al
+n:: patient count or NA
+dose-cgy:: dose or NA
+time-post-rt:: days or NA
+disease-site:: cancer type
+```
+
+For partial data (only pre-RT or post-RT), add `partial-data` to tags.
+
 ## Workflow
 
 The recommended Logseq workflow:

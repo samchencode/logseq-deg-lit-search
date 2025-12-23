@@ -1,0 +1,4 @@
+- Sequence Read Archive
+- Raw sequencing data repository (NCBI)
+- URL: https://www.ncbi.nlm.nih.gov/sra
+- Linked to [[GEO]] datasets

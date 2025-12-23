@@ -1,0 +1,19 @@
+- Repositories to check for available [[RNAseq]] data before contacting authors
+- [[GEO]] - Gene Expression Omnibus
+	- NCBI repository for functional genomics data
+	- URL: https://www.ncbi.nlm.nih.gov/geo/
+- [[SRA]] - Sequence Read Archive
+	- Raw sequencing data repository
+	- URL: https://www.ncbi.nlm.nih.gov/sra
+- [[ArrayExpress]]
+	- EMBL-EBI functional genomics archive
+	- URL: https://www.ebi.ac.uk/arrayexpress/
+- [[TCGA]] - The Cancer Genome Atlas
+	- Multi-cancer genomics data
+	- URL: https://portal.gdc.cancer.gov/
+- [[cBioPortal]]
+	- Cancer genomics visualization/analysis
+	- URL: https://www.cbioportal.org/
+- [[ICGC]] - International Cancer Genome Consortium
+	- Global cancer genome projects
+	- URL: https://dcc.icgc.org/

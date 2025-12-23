@@ -1,0 +1,4 @@
+- Gene Expression Omnibus
+- NCBI repository for functional genomics data
+- URL: https://www.ncbi.nlm.nih.gov/geo/
+- Search for [[RNAseq]] datasets by accession (GSE/GSM)

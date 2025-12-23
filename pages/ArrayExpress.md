@@ -1,0 +1,3 @@
+- EMBL-EBI functional genomics archive
+- European equivalent to [[GEO]]
+- URL: https://www.ebi.ac.uk/arrayexpress/
