@@ -1,3 +1,7 @@
+---
+description: Commit current changes to git with a descriptive message
+---
+
 # Commit Changes
 
 Commit the current changes to git with a descriptive message.
