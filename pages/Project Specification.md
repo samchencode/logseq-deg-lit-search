@@ -1,6 +1,7 @@
 - Project Title
 	- [[RNAseq]] Literature Review: Pre/Post [[Radiation Therapy]] in [[Cancer]]
 - Objective
+	- Main objective: Identify differential gene expression datasets comparing before and after radiation therapy
 	- Identify studies with [[RNAseq]] data collected before AND after radiation monotherapy
 	- Contact authors to request raw data for downstream analysis
 - Inclusion Criteria
