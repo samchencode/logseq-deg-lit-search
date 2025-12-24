@@ -42,6 +42,7 @@
 - Public Data Check
 	- Before contacting authors, check [[Public Data Sources]]
 - Search Tracking Workflow
+	- Before searching, check `pages/Search History.md` for previously used search terms to avoid repetition
 	- Each retrieval logged in daily journal under `journals/yyyy_MM_dd.md`
 	- Format:
 	  ```
