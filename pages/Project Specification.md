@@ -69,3 +69,15 @@
 	  logseq.order-list-type:: number
 	- Journal log of all searches
 	  logseq.order-list-type:: number
+- Summary Format (added below page attributes only when requested)
+	- # Title of the Paper
+	- ## Study Design
+		- Bullet points describing study design, patient info, treatment, tissues, etc.
+	- ## Methodology
+		- Bullet points on sequencing methods, analysis, etc.
+	- ## Key Findings
+		- Bullet points on main results and conclusions
+	- ## Data Availability
+		- Text on whether data is public or how to access
+	- ## Source
+		- Publication details and institutions
