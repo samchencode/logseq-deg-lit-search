@@ -68,7 +68,7 @@ Failed article retrievals (blocked bots, 403, paywall, file too large, network f
 
 ## Workflow
 
-Before starting or continuing search workflow, review project spec to refresh on instructions.
+Before starting or continuing search workflow, review project spec to refresh on instructions and check pages/Search History.md for previously used search terms to avoid repetition.
 
 1. Search for articles
 2. Found article? 
