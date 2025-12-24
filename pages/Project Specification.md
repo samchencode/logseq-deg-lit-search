@@ -5,13 +5,12 @@
 	- Identify studies with [[RNAseq]] data collected before AND after radiation monotherapy
 	- Contact authors to request raw data for downstream analysis
 - Inclusion Criteria
-	- Human subjects
+	- Human subjects or patient derived xenograft
 	- Radiation monotherapy only (no chemo/immunotherapy combo)
 	- [[RNAseq]] performed at minimum 2 timepoints: pre-RT and post-RT (bulk RNAseq OR scRNA-seq)
 	- [[DEG analysis]] performed or raw counts available
 	- Any [[cancer]] type
 	- Review/meta-analysis articles using RNAseq methods are acceptable (may reference other papers that fit search criteria)
-	  logseq.order-list-type:: number
 - Exclusion Criteria
 	- Animal/cell line studies
 	- Combined treatment modalities
