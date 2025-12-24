@@ -42,6 +42,7 @@ pub-date:: YYYY-MM-DD or NA
 tissue-pre-rt:: tissue type before RT
 tissue-post-rt:: tissue type after RT
 fractionation:: number of fractions or NA
+deg-comparison:: paired pre/post same patient, control vs post-RT, or NA
 ```
 Partial data (only pre-RT or post-RT): add `partial-data` to tags
 

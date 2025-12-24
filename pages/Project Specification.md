@@ -35,6 +35,7 @@
 	- `tissue-pre-rt::` tissue type before RT
 	- `tissue-post-rt::` tissue type after RT
 	- `fractionation::` number of fractions or NA
+	- `deg-comparison::` paired pre/post same patient, control vs post-RT, or NA
 - Storage
 	- Filename: `pages/<doi>.md` (replace `/` with `_`)
 	- Deduplication: DOI as filename prevents duplicates
