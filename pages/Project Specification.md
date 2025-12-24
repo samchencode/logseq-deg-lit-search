@@ -34,6 +34,7 @@
 	- `pub-date::` YYYY-MM-DD or NA
 	- `tissue-pre-rt::` tissue type before RT
 	- `tissue-post-rt::` tissue type after RT
+	- `fractionation::` number of fractions or NA
 - Storage
 	- Filename: `pages/<doi>.md` (replace `/` with `_`)
 	- Deduplication: DOI as filename prevents duplicates

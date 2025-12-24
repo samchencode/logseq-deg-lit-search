@@ -41,6 +41,7 @@ disease-site:: cancer type
 pub-date:: YYYY-MM-DD or NA
 tissue-pre-rt:: tissue type before RT
 tissue-post-rt:: tissue type after RT
+fractionation:: number of fractions or NA
 ```
 Partial data (only pre-RT or post-RT): add `partial-data` to tags
 
