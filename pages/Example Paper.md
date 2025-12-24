@@ -1,4 +1,4 @@
-tags:: paper
+tags:: paper, example
 link:: [LINK](example-link.com/...)
 authors:: Chen, S et al
 n:: 3
