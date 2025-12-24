@@ -32,3 +32,6 @@ Log of search terms used in literature searches to avoid repetition.
 - "serial biopsies" OR "sequential biopsies" OR "repeat biopsies" radiation therapy RNA-seq transcriptome cancer 2023 2024
 - "endometrial cancer" OR "uterine cancer" radiation therapy RNA-seq transcriptome biopsy tumor 2023 2024
 - site:pubmed.ncbi.nlm.nih.gov "paired" OR "longitudinal" "biopsy" OR "biopsies" "radiation" OR "radiotherapy" "RNA-seq" OR "transcriptome" 2024
+- neoadjuvant radiotherapy RNA-seq transcriptome paired biopsy cancer human monotherapy
+- GBM radiotherapy alone RNA-seq transcriptome paired biopsy pre post human
+- liver metastasis SBRT RNA-seq transcriptome pre post paired biopsy human
