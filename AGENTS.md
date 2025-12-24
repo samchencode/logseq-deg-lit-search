@@ -75,5 +75,6 @@ Before starting or continuing search workflow, review project spec to refresh on
    - Yes: Stop searching and update daily journal + make page for found article
    - No (blocked/failed): Add to pages/Manual Search.md
 3. Update `pages/Tips.md` with tips for finding best articles.
+4. Stop and wait for instructions to continue the search
 
 Always create todo list and check off as you go.
