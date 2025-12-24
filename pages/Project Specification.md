@@ -14,9 +14,9 @@
 - Exclusion Criteria
 	- Animal/cell line studies
 	- Combined treatment modalities
-	- Partial Data Handling
-	- Papers with only pre-RT or post-RT = tagged `partial-data`
 	- Non-transcriptomics methods (e.g., DNA methylation, proteomics, metabolomics) - studies must use transcriptomics (RNAseq) methodology
+- Partial Data Handling
+	- Papers with only pre-RT or post-RT = tagged `partial-data`
 	- Missing fields = NA
 - Data Extraction Schema (page attributes)
 	- `tags::` paper (add partial-data if applicable)
