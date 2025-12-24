@@ -32,6 +32,8 @@
 	- `time-post-rt::` days post-RT or NA
 	- `disease-site::` cancer type
 	- `pub-date::` YYYY-MM-DD or NA
+	- `tissue-pre-rt::` tissue type before RT
+	- `tissue-post-rt::` tissue type after RT
 - Storage
 	- Filename: `pages/<doi>.md` (replace `/` with `_`)
 	- Deduplication: DOI as filename prevents duplicates
