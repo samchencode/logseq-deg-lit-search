@@ -1,47 +1,35 @@
-# CLAUDE.md
+# Agent Instructions
 
-In all interactions and commit messages, be extremely concise and sacrifice grammar for the sake of being concise.
-Minimize any redundancy in files you create
+Be concise, sacrifice grammar for brevity. Minimize file redundancy.
 
-## Project Overview
+## Project
 
-This is a Logseq graph for a literature review project. Key docs:
-- `pages/Planning.md` - project plan and milestones
+Logseq graph for literature review. Key docs:
+- `pages/Planning.md` - plan & milestones
 - `pages/Project Specification.md` - finalized requirements
-- `pages/Tips.md` - search patterns and lessons learned
+- `pages/Tips.md` - search patterns & lessons learned
 
-## Directory Structure
+## Directories
 
-### Core Directories
+- **journals/**: Daily journal pages (auto-created by Logseq)
+- **pages/**: User-created titled pages
+- **assets/**: Images, PDFs, media
 
-- **journals/**: Daily journal pages created automatically by Logseq. Each day you open Logseq, a new journal page is created. This is where you typically start writing notes before organizing them into dedicated pages.
+## Naming
 
-- **pages/**: User-created titled pages for organizing knowledge. Notes that start in journal pages are often moved here as they develop into distinct topics.
+Journal: `yyyy_MM_dd.md` (e.g., `2025_12_23.md`)
+Pages: Use title as filename, preserve spaces/caps (e.g., `My Page.md`)
+Paper pages: `pages/<doi>.md` (replace `/` with `_` in DOI)
 
-- **assets/**: Storage for images, PDFs, and other media files referenced in your notes.
+## Links
 
-## Naming Conventions
-
-### Journal Files
-- Journal files are named by date in `yyyy_MM_dd.md` format (e.g., `2025_12_23.md`)
-- Journal file naming format can be customized in Logseq settings to include additional information like day of week
-- Alternative formats may create hierarchical namespacing for month and year pages
-
-### Page Files
-- Page files use the page title as the filename with `.md` extension
-- Spaces in page titles become spaces in filenames (e.g., "My Page" → `My Page.md`)
-- Special characters and capitalization in page names should be preserved in filenames
-- Namespacing is supported using `/` in page names (e.g., "Project/Notes" creates hierarchy)
-
-## Linking Rules
-
-When writing markdown files, wrap nouns in `[[ ]]` (e.g., `[[The concept]]`) and create corresponding page file in `pages/` (e.g., `pages/The concept.md`).
+Wrap nouns in `[[ ]]` (e.g., `[[The concept]]`), create corresponding page file in `pages/`
 
 ## Page Attributes
 
-Logseq page attributes go at top of file, format `key:: value`. See `pages/Example Paper.md`. Paper pages use DOI as filename: `pages/<doi>.md` (replace `/` with `_` in DOI).
+Top of file: `key:: value`. See `pages/Example Paper.md`.
 
-Required attributes for papers:
+Required for papers:
 ```
 tags:: paper
 link:: [LINK](url)
@@ -50,22 +38,44 @@ n:: patient count or NA
 dose-cgy:: dose or NA
 time-post-rt:: days or NA
 disease-site:: cancer type
+pub-date:: YYYY-MM-DD or NA
+tissue-pre-rt:: tissue type before RT
+tissue-post-rt:: tissue type after RT
+fractionation:: number of fractions or NA
+deg-comparison:: paired pre/post same patient, control vs post-RT, or NA
 ```
-
-For partial data (only pre-RT or post-RT), add `partial-data` to tags.
+Partial data (only pre-RT or post-RT): add `partial-data` to tags
 
 ## Search Tracking
 
-Each search logged in daily journal (`journals/yyyy_MM_dd.md`):
+In daily journal (`journals/yyyy_MM_dd.md`):
 ```
 - Search N
 	- [[doi_here]] - brief synopsis
 	- [[doi_here]] - brief synopsis
 ```
+Add to search log immediately when matching paper found, create `pages/<doi>.md` with attributes.
 
-When a paper matching criteria is found, add to the search log immediately, before continuing the search.
-Also create the corresponding page at `pages/<doi>.md`, containing the appropriate page attributes.
+### Manual Search Tracking
+
+Failed article retrievals (blocked bots, 403, paywall, file too large, network failure) go to `pages/Manual Search.md`:
+```
+- <date/time> - article title
+	- DOI: <doi>
+	- Link: [source](url)
+	- Issue: <reason for failure>
+```
 
 ## Workflow
 
-Always make a to do list and check it off as you go.
+Before starting or continuing search workflow, review project spec to refresh on instructions.
+
+1. Search for articles
+2. Found article? 
+   - Yes: Stop searching and update daily journal + make page for found article
+   - No: Continue searching
+3. Add failed article retrievals (blocked bots, 403, paywall, file too large, network failure) to pages/Manual Search.md per the specified format.
+4. Update `pages/Tips.md` with tips for finding best articles.
+5. Stop and wait for instructions to continue the search
+
+Always create todo list and check off as you go.
