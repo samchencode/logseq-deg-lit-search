@@ -35,3 +35,7 @@ Log of search terms used in literature searches to avoid repetition.
 - neoadjuvant radiotherapy RNA-seq transcriptome paired biopsy cancer human monotherapy
 - GBM radiotherapy alone RNA-seq transcriptome paired biopsy pre post human
 - liver metastasis SBRT RNA-seq transcriptome pre post paired biopsy human
+- colorectal cancer radiotherapy monotherapy RNA-seq paired biopsy pre post 2023 2024 2025
+- kidney cancer SBRT RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
+- uveal melanoma proton radiation RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
+- prostate cancer SBRT RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
