@@ -1,0 +1,58 @@
+# RNAseq Literature Review Project
+
+This project is a Logseq graph for systematically collecting and organizing literature on differential gene expression (DEG) studies comparing pre- and post-radiation therapy (RT) in human cancer patients using RNAseq.
+
+## Overview
+
+The goal is to identify and catalog qualifying papers that meet specific inclusion criteria (human subjects, radiation monotherapy, RNAseq pre/post RT, DEG analysis). Each paper is stored as a page with standardized attributes (e.g., tags, authors, n, dose, etc.) for easy querying and analysis.
+
+## Getting Started
+
+### Prerequisites
+- **Git**: For cloning the repository.
+- **Logseq**: For viewing and editing the graph.
+- **opencode**: CLI tool for software engineering tasks (optional, for advanced workflow).
+
+### Clone the Repository
+```bash
+git clone <repository-url>  # Replace with actual URL if hosted online
+cd fiddle-claude  # Or the cloned directory name
+```
+
+### Open in Logseq
+1. Download and install Logseq from [logseq.com](https://logseq.com).
+2. Open Logseq.
+3. Click "Add new graph" or "Open a local directory".
+4. Select the cloned directory (`fiddle-claude`).
+5. The graph will load with pages, journals, and links.
+
+### Install opencode (Optional)
+opencode is a CLI tool for software engineering tasks. To install:
+1. Visit [opencode.ai](https://opencode.ai) for installation instructions.
+2. Follow the setup guide to configure it for your environment.
+
+### What is AGENTS.md?
+`AGENTS.md` is a file containing instructions and guidelines for collaborators (agents) working on this project. It outlines workflows, naming conventions, search strategies, and how to add new papers or update the database. Read it before contributing to ensure consistency.
+
+## Project Structure
+- **`pages/`**: User-created pages, including individual paper pages (e.g., `10.1371_journal.pone.0316443.md`) with attributes.
+- **`journals/`**: Daily journal entries logging searches and findings (e.g., `2025_12_23.md`).
+- **`logseq/`**: Backup and versioned pages.
+- **`AGENTS.md`**: Collaboration guidelines.
+- **`CLAUDE.md`**: Additional notes or AI interactions.
+- **`.git/`**: Git repository for version control.
+
+## Workflow
+1. Review `AGENTS.md` for criteria and procedures.
+2. Search for papers using PubMed, etc.
+3. If qualifying: Create a page in `pages/` with DOI as filename and standardized attributes.
+4. Log the search in `journals/yyyy_MM_dd.md`.
+5. Use Logseq to query and link papers (e.g., by tags like `[[paper]]`).
+
+## Contributing
+Follow the guidelines in `AGENTS.md`. Use git for version control (commit changes, create branches for major updates). For help with opencode or Logseq, refer to their documentation.
+
+## License
+[Add license if applicable, e.g., MIT]
+
+For questions, check `AGENTS.md` or create an issue in the repo.
