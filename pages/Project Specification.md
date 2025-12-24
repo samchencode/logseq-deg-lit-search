@@ -31,6 +31,7 @@
 	- `dose-cgy::` radiation dose or NA
 	- `time-post-rt::` days post-RT or NA
 	- `disease-site::` cancer type
+	- `pub-date::` YYYY-MM-DD or NA
 - Storage
 	- Filename: `pages/<doi>.md` (replace `/` with `_`)
 	- Deduplication: DOI as filename prevents duplicates
