@@ -56,6 +56,20 @@ In daily journal (`journals/yyyy_MM_dd.md`):
 ```
 Add to search log immediately when matching paper found, create `pages/<doi>.md` with attributes.
 
+### Manual Search Tracking
+
+Failed searches (blocked bots, 403, paywall, file too large, network failure) go to `pages/Manual Search.md`:
+```
+- <date/time> - Source (e.g., PubMed, Scopus)
+	- Query terms: <search terms>
+	- Issue: <reason for failure>
+```
+
 ## Workflow
+
+1. Search for articles
+2. Found article? 
+   - Yes: Update daily journal + make page for found article
+   - No (blocked/failed): Add to pages/Manual Search.md
 
 Always create todo list and check off as you go.

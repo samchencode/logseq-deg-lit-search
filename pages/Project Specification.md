@@ -57,6 +57,14 @@
 	- Searches numbered sequentially per day (Search 1, Search 2, etc.)
 	- Each paper DOI linked creates backlink to journal date
 	- Enables tracking what was found when
+- Manual Search Workflow
+	- Failed searches (blocked bots, 403, paywall, file too large, network failure)
+	- Log to `pages/Manual Search.md`:
+	  ```
+	  - <date/time> - Source (e.g., PubMed, Scopus)
+	  	- Query terms: <search terms>
+	  	- Issue: <reason for failure>
+	  ```
 - Deliverables
 	- Logseq pages per paper with attributes
 	  logseq.order-list-type:: number
