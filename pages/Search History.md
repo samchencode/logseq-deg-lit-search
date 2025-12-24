@@ -39,3 +39,23 @@ Log of search terms used in literature searches to avoid repetition.
 - kidney cancer SBRT RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
 - uveal melanoma proton radiation RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
 - prostate cancer SBRT RNA-seq paired biopsy pre post monotherapy 2023 2024 2025
+- "thyroid cancer" OR "differentiated thyroid" radiation OR radioiodine RNA-seq transcriptome biopsy tumor tissue paired
+- "anal cancer" OR "anal carcinoma" radiation therapy RNA-seq transcriptome biopsy paired pre post
+- site:pubmed.ncbi.nlm.nih.gov "preoperative radiotherapy" OR "preoperative radiation" RNA-seq OR transcriptome paired biopsy surgical specimen
+- site:pubmed.ncbi.nlm.nih.gov rectal cancer "short course" OR "neoadjuvant" radiation "RNA sequencing" OR "RNA-seq" paired biopsy
+- site:pubmed.ncbi.nlm.nih.gov "mesothelioma" radiation OR radiotherapy RNA-seq transcriptome biopsy tumor tissue
+- "oropharyngeal cancer" OR "oropharynx" radiation alone OR monotherapy RNA-seq transcriptome paired biopsy pre post
+- "bone metastasis" OR "bone metastases" SBRT OR radiotherapy RNA-seq transcriptome biopsy tissue paired
+- site:pubmed.ncbi.nlm.nih.gov "whole transcriptome" OR "bulk RNA-seq" radiation OR radiotherapy paired biopsy surgical specimen cancer 2019 2020 2021
+- site:pubmed.ncbi.nlm.nih.gov "laryngeal cancer" OR "larynx" radiation OR radiotherapy RNA-seq transcriptome biopsy tumor
+- site:pubmed.ncbi.nlm.nih.gov "longitudinal" OR "serial" "tumor biops" radiation OR radiotherapy "RNA sequencing" OR "transcriptome" 2018 2019 2020 2021
+- "radiotherapy" "pre-treatment" "post-treatment" "RNA-seq" OR "transcriptome" "paired" "patient" "biopsy" 2020 2021 2022
+- "tongue cancer" OR "oral tongue" radiation therapy RNA-seq transcriptome biopsy paired pre post
+- site:pubmed.ncbi.nlm.nih.gov GSE OR GEO "radiation" OR "radiotherapy" "RNA-seq" "paired" "pre" "post" 2019 2020 2021 2022
+- GSE137867 esophageal cancer radiotherapy paired pre post RNA-seq
+- site:ncbi.nlm.nih.gov/geo GSE137867
+- "skin cancer" OR "cutaneous carcinoma" OR "basal cell" OR "squamous cell skin" radiation RNA-seq transcriptome biopsy paired
+- "review" OR "meta-analysis" "radiotherapy" OR "radiation therapy" "RNA-seq" OR "transcriptome" "pre" "post" "paired" "biomarkers" cancer 2023 2024
+- site:pubmed.ncbi.nlm.nih.gov "RT alone" OR "radiation alone" RNA-seq transcriptome paired biopsy tissue 2018 2019 2020 2021 2022
+- 10.1016/j.crmeth.2025.100908 breast cancer neoadjuvant radiation RNA-seq
+- site:pubmed.ncbi.nlm.nih.gov "impact of breast radiotherapy on the tumor genome and immune ecosystem" single-cell RNA-seq
