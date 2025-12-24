@@ -16,7 +16,7 @@ The goal is to identify and catalog qualifying papers that meet specific inclusi
 ### Clone the Repository
 ```bash
 git clone git@github.com:samchencode/logseq-deg-lit-search.git
-cd fiddle-claude  # Or the cloned directory name
+cd logseq-deg-lit-search
 ```
 
 ### Open in Logseq
