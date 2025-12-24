@@ -14,6 +14,7 @@
 - Best RT-alone sources: SBRT for prostate, lung, liver mets
 - Breast cancer neoadjuvant RT studies are rare but possible (e.g., recent ER+ study)
 - Breast cancer "preoperative radiotherapy" or "preoperative radiation" yields RT monotherapy studies
+- ER+ breast cancer has multiple neoadjuvant RT studies with scRNA-seq (e.g., MD Anderson studies)
 - Prostate cancer SBRT studies often use radiation monotherapy and have paired pre/post biopsies
 	- PubMed exact searches for "radiation therapy RNA-seq pre post paired biopsy human" yield few hits; use broader terms or Semantic Scholar
 	- Many studies use blood/PBMC instead of tumor biopsy for RNA-seq post-RT
