@@ -19,7 +19,7 @@
 	- Papers with only pre-RT or post-RT = tagged `partial-data`
 	- Missing fields = NA
 - Data Extraction Schema (page attributes)
-	- `tags::` paper (add partial-data if applicable)
+	- `tags::` paper (add partial-data if applicable; add review for review articles, e.g., `tags:: paper, review`)
 	- `link::` [LINK](url)
 	- `authors::` Last, F et al
 	- `n::` patient count or NA
