@@ -50,13 +50,6 @@ These files contain instructions and guidelines primarily for AI agents (not hum
 - **`CLAUDE.md`**: Additional notes or AI interactions.
 - **`.git/`**: Git repository for version control.
 
-## Workflow
-1. Review `AGENTS.md` for criteria and procedures.
-2. Search for papers using PubMed, etc.
-3. If qualifying: Create a page in `pages/` with DOI as filename and standardized attributes.
-4. Log the search in `journals/yyyy_MM_dd.md`.
-5. Use Logseq to query and link papers (e.g., by tags like `[[paper]]`).
-
 ## Contributing
 Follow the guidelines in `AGENTS.md`. Use git for version control (commit changes, create branches for major updates). For help with opencode or Logseq, refer to their documentation.
 
