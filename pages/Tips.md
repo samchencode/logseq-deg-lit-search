@@ -12,6 +12,10 @@
 	- Esophageal cancer usually uses CCRT - hard to find RT alone
 	- Rectal cancer: short-course RT exists but often combined with chemo
 	- Best RT-alone sources: SBRT for prostate, lung, liver mets
+	- Breast cancer neoadjuvant RT studies are rare but possible (e.g., recent ER+ study)
+	- PubMed exact searches for "radiation therapy RNA-seq pre post paired biopsy human" yield few hits; use broader terms or Semantic Scholar
+	- Many studies use blood/PBMC instead of tumor biopsy for RNA-seq post-RT
+	- Reflections: Pure RT monotherapy pre/post tumor biopsy RNA-seq studies are scarce; most combine with chemo/immuno, making searches challenging
 - Useful search templates
 	- `[cancer type] SBRT RNA-seq transcriptome pre post paired`
 	- `[cancer type] radiotherapy alone gene expression biopsy`
