@@ -66,3 +66,11 @@
 	  logseq.order-list-type:: number
 	- Phase 3: Aggregation. Create paper pages with attributes
 	  logseq.order-list-type:: number
+- ### Background information
+	- Example Data Source Paper
+		- Response to Preoperative Radiation Therapy in Relation to Gene Expression Patterns in Breast Cancer Patients
+			- Development and validation of a novel radiosensitivity signature in human breast cancer
+	- About CURE AI
+		- [A Deep Learning Framework for Causal Inference in Clinical Trial Design: The CURE AI Large Clinicogenomic Foundation Model](https://www.medrxiv.org/content/10.1101/2025.03.06.25323534v1)
+		- [Artificial intelligence in target discovery: CURE AI prediction of TIGIT and PD-L1 as immunotherapy targets in NSCLC](https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.e13692)
+	- We also have 10 PDX lines
